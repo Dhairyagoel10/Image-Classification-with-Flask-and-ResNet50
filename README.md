@@ -21,9 +21,10 @@ This project is an image classification web application built using Flask and a 
 
 ![Screenshot 2024-09-22 223634](https://github.com/user-attachments/assets/b1283e10-ef8e-4f4c-bc5b-9f5ed1a9d1ee)
 
-I used conda Enviornment You can use venv also.
+1. I used a Conda environment, but you can also use venv.
+2. One important thing is to create a folder called 'images' where the images will be saved (see the photo).
 
-2. Activate the Virtual Environment:
+3. Activate the Virtual Environment:
 • On Windows  [ venv\Scripts\activate ]
 • On macOS/Linux: source  [ venv/bin/activate ]
 
