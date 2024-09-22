@@ -14,3 +14,31 @@ This project is an image classification web application built using Flask and a 
 1. Upload images for classification.
 2. Displays the predicted label with confidence percentage.
 3. User-friendly interface.
+
+# Step 1: Set Up Your Environment
+1. Create a Virtual Environment: Open your terminal and navigate to your project directory. Create a virtual environment to keep your dependencies organized.
+[python -m venv venv]
+
+![Screenshot 2024-09-22 223634](https://github.com/user-attachments/assets/b1283e10-ef8e-4f4c-bc5b-9f5ed1a9d1ee)
+
+I used conda Enviornment You can use venv also.
+
+2. Activate the Virtual Environment:
+• On Windows  [ venv\Scripts\activate ]
+• On macOS/Linux: source  [ venv/bin/activate ]
+
+# Step 2: Run the Application
+3. Run the Flask Application: In your terminal, while still in the project directory and with the virtual environment activated, run
+  [ python app.py ]
+
+# Step 3: Access the Application
+Open Your Web Browser: Navigate to http://127.0.0.1:3000 to access your image classifier application.
+
+# Step 4: Upload an Image
+1. Click on the "Choose an image to upload" button.
+2. Select an image from your computer.
+3. Click the "Predict Image" button to see the prediction.
+
+# Step 5: Deactivate the Environment
+Deactivate the Virtual Environment: When you are done working, you can deactivate the virtual environment by running [deactivate
+]
